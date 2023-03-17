@@ -1,0 +1,61 @@
+.box-1 {
+  background: red;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  transition: transform 1s linear;
+  transform-origin: top left;
+  transform-style: preserve-3D;
+}
+
+.box-2{
+  background: yellow;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  transition: transform 1s linear;
+  transform-origin: top right;
+  transform-style: preserve-3D;
+}
+
+.box-3{
+  background: blue;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  transition: transform 1s linear;
+  transform-origin: bottom left;
+  transform-style: preserve-3D;
+}
+
+.box-4{
+  background: green;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  transition: transform 1s linear;
+  transform-origin: bottom right;
+  transform-style: preserve-3D;
+}
+
+.main{
+  height: 60%;
+  width: 30%;
+  border: 1px solid black;
+  margin-left: 40%;
+  margin-top: 20%;
+}
+
+.main:hover .box-positive{
+  transform: rotate(90deg);
+}
+
+.main:hover .box-negative{
+  transform: rotate(-90deg);
+}
+
+
+
+
+
+
